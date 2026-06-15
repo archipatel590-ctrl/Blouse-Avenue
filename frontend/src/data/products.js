@@ -7,8 +7,8 @@ export const heroSlides = [
     title: 'THE SILK SYMPHONY',
     subtitle: 'Classic Banarasi brocade and pure raw silk blouses that harmonize with every elegant drape.',
     badge: 'NEW ♦ CLASSIC ♦ HERITAGE',
-    imageLeft: 'https://cdn.jumpshare.com/preview/i798cbLnKphNF2J6IkXvLY_CdynztU2hwCynjYXNSHvmiAJFoLjxAPGKdx5HE0uzCg50fK94jsjSSjayr4CkeT5EJjArL4tau69Sc7pfYy6DeASiWMaHGlkxfqBs6clF',
-    imageRight: 'https://cdn.jumpshare.com/preview/oVps4ZRmPVQIu1P1KZf1Vuy9yZPwZXk7cgxABDBWr3GxN5mifzf5YHxaNaWl4tE1Cg50fK94jsjSSjayr4CkeRtjLTD1cIBByb04e4T3NOWDeASiWMaHGlkxfqBs6clF',
+    imageLeft: '/src/assets/zuri_saree_left.png',
+    imageRight: '/src/assets/zuri_saree_right.png',
     tagline: 'Elevating Everyday Regal Grace'
   },
   {
@@ -17,8 +17,8 @@ export const heroSlides = [
     title: 'FESTIVE DANCE OF COLORS',
     subtitle: 'Vibrant Kutchi mirror-work and handloom cotton blouses celebrating cultural richness.',
     badge: 'NEW ♦ FESTIVE ♦ SPECIAL',
-    imageLeft: 'https://cdn.jumpshare.com/preview/Vc7tZWlbbBmzRjIi7Y68LtqJIRigFoHBDLdwifZINuZ-9DdqNkHIgeV_IipSKI33Cg50fK94jsjSSjayr4CkeR9EZvPbvIIYDRRsM6IrXsaDeASiWMaHGlkxfqBs6clF',
-    imageRight: 'https://cdn.jumpshare.com/preview/OZfkiMXgE013MK2bN2jGGk4vrOchivbwXs2fSNpRTy8dFC6Tquz7TM_ukV0ndOGgueB4FOKd5c5YdWcrlRXhuAbDaFfuam37hyB0sd91TjyDeASiWMaHGlkxfqBs6clF',
+    imageLeft: '/src/assets/zuri_navratri_left.png',
+    imageRight: '/src/assets/zuri_navratri_right.png',
     tagline: 'Vibrant Mirror-work & Handloom Marvels'
   },
   {
@@ -27,8 +27,8 @@ export const heroSlides = [
     title: 'THE MODERN SHIMMER',
     subtitle: 'Contemporary silhouettes with sequins, cut-out backs, and metallic accents for festive evenings.',
     badge: 'NEW ♦ COUTURE ♦ COLLECTION',
-    imageLeft: 'https://cdn.jumpshare.com/preview/WecSbt3Q2bBEihllbPjcHKdhBKichDUrnl0beT-OQiUHASCFXdHTFHyIWusXa3waCg50fK94jsjSSjayr4CkeVe9BV88DtEXQ-ccbGsVdvWDeASiWMaHGlkxfqBs6clF',
-    imageRight: 'https://cdn.jumpshare.com/preview/WecSbt3Q2bBEihllbPjcHKdhBKichDUrnl0beT-OQiUHASCFXdHTFHyIWusXa3waCg50fK94jsjSSjayr4CkeVe9BV88DtEXQ-ccbGsVdvWDeASiWMaHGlkxfqBs6clF',
+    imageLeft: '/src/assets/zuri_party_left.png',
+    imageRight: '/src/assets/zuri_party_right.png',
     tagline: 'Stellar Silhouettes for Late-Night Soirees'
   }
 ];

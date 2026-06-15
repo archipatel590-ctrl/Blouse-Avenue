@@ -112,7 +112,7 @@ export default function CategoryPage() {
       subtitle: 'Classic Heritage & Zari',
       desc: 'Elegant Banarasi brocades and handloom silk blouses designed to complement your finest drapes with absolute grace.',
       bgGradient: 'from-charcoal-950 via-[#221c10] to-charcoal-950',
-      bgImage: 'https://jumpshare.com/share/SepgOZCG8qDyDyoGxucR',
+      bgImage: 'https://cdn.jumpshare.com/preview/uH4lLMMc0r42YuL5OUkb8WNam1xiUfJ6Euw9QEIj2whbKyqTUTgfQk5x56hPadEMCg50fK94jsjSSjayr4CkeaTkP47lCqHj_oiBaeLXr_yDeASiWMaHGlkxfqBs6clF',
       accentColor: 'text-gold-500',
       tagColor: 'bg-gold-50 text-gold-700 border-gold-200',
       overlayClass: 'bg-[radial-gradient(#d4af37_1.5px,transparent_1.5px)]'
@@ -122,7 +122,7 @@ export default function CategoryPage() {
       subtitle: 'Festive Colors & Mirrors',
       desc: 'Vibrant mirror-work, Kutchi handloom cottons, and colorful patchwork blouses to light up festive dance nights.',
       bgGradient: 'from-charcoal-950 via-[#321c1f] to-charcoal-950',
-      bgImage: 'https://jumpshare.com/share/diRrgFu0bYoa2AMrZyWM',
+      bgImage: 'https://cdn.jumpshare.com/preview/Vc7tZWlbbBmzRjIi7Y68LtqJIRigFoHBDLdwifZINuZ-9DdqNkHIgeV_IipSKI33Cg50fK94jsjSSjayr4CkeR9EZvPbvIIYDRRsM6IrXsaDeASiWMaHGlkxfqBs6clF',
       accentColor: 'text-rose-400',
       tagColor: 'bg-rose-50 text-rose-700 border-rose-200',
       overlayClass: 'bg-[radial-gradient(#ab6970_1.5px,transparent_1.5px)]'
@@ -132,7 +132,7 @@ export default function CategoryPage() {
       subtitle: 'Modern Glitz & Glamour',
       desc: 'Sleek sequins, daring halter backs, and modern plunge necklines crafted for contemporary evening events.',
       bgGradient: 'from-charcoal-950 via-[#181214] to-black',
-      bgImage: 'https://jumpshare.com/share/lYDGoBWjTrxzAm2uV1bQ',
+      bgImage: 'https://cdn.jumpshare.com/preview/oVps4ZRmPVQIu1P1KZf1Vuy9yZPwZXk7cgxABDBWr3GxN5mifzf5YHxaNaWl4tE1Cg50fK94jsjSSjayr4CkeRtjLTD1cIBByb04e4T3NOWDeASiWMaHGlkxfqBs6clF',
       accentColor: 'text-rose-400',
       tagColor: 'bg-rose-50 text-rose-700 border-rose-200',
       overlayClass: 'bg-[radial-gradient(#ab6970_1.5px,transparent_1.5px)]'
@@ -143,7 +143,7 @@ export default function CategoryPage() {
       subtitle: 'Highly Coveted Designs',
       desc: 'The most popular, highly-rated designs that are defining ethnic luxury couture this season.',
       bgGradient: 'from-charcoal-950 via-charcoal-900 to-[#1f1a10]',
-      bgImage: 'https://jumpshare.com/share/ARuY0U8y6XaNPxvWC2Eq',
+      bgImage: 'https://cdn.jumpshare.com/preview/i798cbLnKphNF2J6IkXvLY_CdynztU2hwCynjYXNSHvmiAJFoLjxAPGKdx5HE0uzCg50fK94jsjSSjayr4CkeT5EJjArL4tau69Sc7pfYy6DeASiWMaHGlkxfqBs6clF',
       accentColor: 'text-gold-500',
       tagColor: 'bg-gold-50 text-gold-700 border-gold-200',
       overlayClass: 'bg-[radial-gradient(#d4af37_1.5px,transparent_1.5px)]'
@@ -155,7 +155,7 @@ export default function CategoryPage() {
     subtitle: 'Luxury Collection',
     desc: 'Exquisite custom tailored designer blouses made to pair with your favorite ensembles.',
     bgGradient: 'from-charcoal-950 via-charcoal-900/60 to-black',
-    bgImage: 'https://jumpshare.com/share/ARuY0U8y6XaNPxvWC2Eq',
+    bgImage: 'https://cdn.jumpshare.com/preview/i798cbLnKphNF2J6IkXvLY_CdynztU2hwCynjYXNSHvmiAJFoLjxAPGKdx5HE0uzCg50fK94jsjSSjayr4CkeT5EJjArL4tau69Sc7pfYy6DeASiWMaHGlkxfqBs6clF',
     accentColor: 'text-rose-500',
     tagColor: 'bg-rose-50 text-rose-700 border-rose-200',
     overlayClass: 'bg-[radial-gradient(#ab6970_1.5px,transparent_1.5px)]'
