@@ -16,35 +16,35 @@ const containerVariants = {
 
 const cardVariants = {
   hidden: { opacity: 0, y: 30, scale: 0.95 },
-  show: { 
-    opacity: 1, 
-    y: 0, 
+  show: {
+    opacity: 1,
+    y: 0,
     scale: 1,
     transition: { type: 'spring', stiffness: 100, damping: 16 }
   },
-  exit: { 
-    opacity: 0, 
-    scale: 0.9, 
+  exit: {
+    opacity: 0,
+    scale: 0.9,
     y: 10,
-    transition: { duration: 0.25 } 
+    transition: { duration: 0.25 }
   }
 };
 
 const headerTextVariants = {
   hidden: { opacity: 0, y: -20 },
-  show: { 
-    opacity: 1, 
-    y: 0, 
-    transition: { duration: 0.6, ease: 'easeOut', delay: 0.1 } 
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.6, ease: 'easeOut', delay: 0.1 }
   }
 };
 
 export default function CategoryPage() {
-  const { 
-    activePage, 
-    setActivePage, 
-    setQuickViewProduct, 
-    toggleWishlist, 
+  const {
+    activePage,
+    setActivePage,
+    setQuickViewProduct,
+    toggleWishlist,
     isInWishlist,
     products
   } = useContext(ShopContext);
@@ -72,7 +72,7 @@ export default function CategoryPage() {
     if (product.category) {
       return product.category === categoryName;
     }
-    
+
     // Fallback tag mapping for mock data
     if (categoryName === 'Best Sellers') {
       return product.tag === 'Best Selling';
@@ -112,7 +112,7 @@ export default function CategoryPage() {
       subtitle: 'Classic Heritage & Zari',
       desc: 'Elegant Banarasi brocades and handloom silk blouses designed to complement your finest drapes with absolute grace.',
       bgGradient: 'from-charcoal-950 via-[#221c10] to-charcoal-950',
-      bgImage: '/src/assets/zuri_saree_left.png',
+      bgImage: 'https://jumpshare.com/share/SepgOZCG8qDyDyoGxucR',
       accentColor: 'text-gold-500',
       tagColor: 'bg-gold-50 text-gold-700 border-gold-200',
       overlayClass: 'bg-[radial-gradient(#d4af37_1.5px,transparent_1.5px)]'
@@ -122,7 +122,7 @@ export default function CategoryPage() {
       subtitle: 'Festive Colors & Mirrors',
       desc: 'Vibrant mirror-work, Kutchi handloom cottons, and colorful patchwork blouses to light up festive dance nights.',
       bgGradient: 'from-charcoal-950 via-[#321c1f] to-charcoal-950',
-      bgImage: '/src/assets/zuri_navratri_left.png',
+      bgImage: 'https://jumpshare.com/share/diRrgFu0bYoa2AMrZyWM',
       accentColor: 'text-rose-400',
       tagColor: 'bg-rose-50 text-rose-700 border-rose-200',
       overlayClass: 'bg-[radial-gradient(#ab6970_1.5px,transparent_1.5px)]'
@@ -132,7 +132,7 @@ export default function CategoryPage() {
       subtitle: 'Modern Glitz & Glamour',
       desc: 'Sleek sequins, daring halter backs, and modern plunge necklines crafted for contemporary evening events.',
       bgGradient: 'from-charcoal-950 via-[#181214] to-black',
-      bgImage: '/src/assets/zuri_party_right.png',
+      bgImage: 'https://jumpshare.com/share/lYDGoBWjTrxzAm2uV1bQ',
       accentColor: 'text-rose-400',
       tagColor: 'bg-rose-50 text-rose-700 border-rose-200',
       overlayClass: 'bg-[radial-gradient(#ab6970_1.5px,transparent_1.5px)]'
@@ -143,7 +143,7 @@ export default function CategoryPage() {
       subtitle: 'Highly Coveted Designs',
       desc: 'The most popular, highly-rated designs that are defining ethnic luxury couture this season.',
       bgGradient: 'from-charcoal-950 via-charcoal-900 to-[#1f1a10]',
-      bgImage: '/src/assets/zuri_model_magenta.png',
+      bgImage: 'https://jumpshare.com/share/ARuY0U8y6XaNPxvWC2Eq',
       accentColor: 'text-gold-500',
       tagColor: 'bg-gold-50 text-gold-700 border-gold-200',
       overlayClass: 'bg-[radial-gradient(#d4af37_1.5px,transparent_1.5px)]'
@@ -155,7 +155,7 @@ export default function CategoryPage() {
     subtitle: 'Luxury Collection',
     desc: 'Exquisite custom tailored designer blouses made to pair with your favorite ensembles.',
     bgGradient: 'from-charcoal-950 via-charcoal-900/60 to-black',
-    bgImage: '/src/assets/zuri_model_magenta.png',
+    bgImage: 'https://jumpshare.com/share/ARuY0U8y6XaNPxvWC2Eq',
     accentColor: 'text-rose-500',
     tagColor: 'bg-rose-50 text-rose-700 border-rose-200',
     overlayClass: 'bg-[radial-gradient(#ab6970_1.5px,transparent_1.5px)]'
@@ -192,17 +192,17 @@ export default function CategoryPage() {
 
             {/* Dynamic Dot Pattern Background Decor */}
             <div className={`absolute inset-0 opacity-15 ${details.overlayClass} [background-size:20px_20px]`} />
-            
+
             {/* Color Gradient Overlay */}
             <div className={`absolute inset-0 bg-gradient-to-tr ${details.bgGradient} mix-blend-multiply opacity-75`} />
-            
+
             {/* Abstract Glowing Aura Circles */}
             <div className="absolute top-1/4 left-1/4 w-[300px] h-[300px] bg-rose-500/15 rounded-full blur-[100px] animate-pulse" />
             <div className="absolute bottom-1/4 right-1/4 w-[400px] h-[400px] bg-gold-500/10 rounded-full blur-[120px] animate-pulse" />
 
             <div className="max-w-[1420px] mx-auto w-full px-4 md:px-8 relative z-10 text-white flex flex-col items-center text-center">
               {/* Back to home floating link */}
-              <motion.button 
+              <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 onClick={() => setActivePage({ type: 'home' })}
@@ -213,7 +213,7 @@ export default function CategoryPage() {
               </motion.button>
 
               {/* Staggered animated header texts */}
-              <motion.span 
+              <motion.span
                 variants={headerTextVariants}
                 initial="hidden"
                 animate="show"
@@ -221,7 +221,7 @@ export default function CategoryPage() {
               >
                 {details.subtitle}
               </motion.span>
-              <motion.h1 
+              <motion.h1
                 variants={headerTextVariants}
                 initial="hidden"
                 animate="show"
@@ -229,7 +229,7 @@ export default function CategoryPage() {
               >
                 {details.title}
               </motion.h1>
-              <motion.p 
+              <motion.p
                 variants={headerTextVariants}
                 initial="hidden"
                 animate="show"
@@ -254,9 +254,8 @@ export default function CategoryPage() {
                   onClick={() => setActivePage({ type: 'category', value: cat.value })}
                   onMouseEnter={() => setHoveredTab(cat.value)}
                   onMouseLeave={() => setHoveredTab(null)}
-                  className={`relative px-5 py-2 text-xxs md:text-xs font-bold uppercase tracking-[0.2em] transition-colors duration-300 rounded-full ${
-                    isActive ? 'text-white' : 'text-charcoal-800 hover:text-rose-500'
-                  }`}
+                  className={`relative px-5 py-2 text-xxs md:text-xs font-bold uppercase tracking-[0.2em] transition-colors duration-300 rounded-full ${isActive ? 'text-white' : 'text-charcoal-800 hover:text-rose-500'
+                    }`}
                 >
                   {isActive && (
                     <motion.span
@@ -318,114 +317,114 @@ export default function CategoryPage() {
               }}
               className="absolute bottom-1/4 right-10 w-[350px] h-[350px] bg-gold-200/15 rounded-full blur-[100px] -z-10 pointer-events-none"
             />
-        {/* Products Grid Section */}
-        <div className="mt-10">
-          <AnimatePresence mode="wait">
-            {filteredAndSortedProducts.length > 0 ? (
-              <motion.div 
-                key={categoryName + '-' + sortBy + '-' + selectedFabric + '-' + selectedSize}
-                variants={containerVariants}
-                initial="hidden"
-                animate="show"
-                exit="hidden"
-                className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6"
-              >
-                {filteredAndSortedProducts.map((product, idx) => {
-                  const isFavorite = isInWishlist(product.id);
+            {/* Products Grid Section */}
+            <div className="mt-10">
+              <AnimatePresence mode="wait">
+                {filteredAndSortedProducts.length > 0 ? (
+                  <motion.div
+                    key={categoryName + '-' + sortBy + '-' + selectedFabric + '-' + selectedSize}
+                    variants={containerVariants}
+                    initial="hidden"
+                    animate="show"
+                    exit="hidden"
+                    className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6"
+                  >
+                    {filteredAndSortedProducts.map((product, idx) => {
+                      const isFavorite = isInWishlist(product.id);
 
-                  return (
-                    <motion.div
-                      key={product.id}
-                      variants={cardVariants}
-                      layout
-                      whileHover={{
-                        y: -10,
-                        transition: { type: 'spring', stiffness: 260, damping: 20 }
-                      }}
-                      onMouseEnter={() => setHoveredCardId(product.id)}
-                      onMouseLeave={() => setHoveredCardId(null)}
-                      className="w-full group flex flex-col bg-white rounded-3xl overflow-hidden shadow-sm border border-cream-200/80 hover:shadow-2xl hover:border-rose-200/90 transition-shadow transition-colors duration-300 relative"
-                    >
-                      {/* Product Visual Area */}
-                      <div 
-                        onClick={() => setQuickViewProduct(product)}
-                        className="relative aspect-square w-full overflow-hidden bg-[#FAF8F5] cursor-pointer"
-                      >
-                        {/* Elegant overlay shadow on hover */}
-                        <div className="absolute inset-0 bg-gradient-to-t from-charcoal-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10" />
-
-                        {/* Image Switcher on Hover */}
-                        <img
-                          src={hoveredCardId === product.id && product.hoverImage ? product.hoverImage : product.image}
-                          alt={product.name}
-                          className="w-full h-full object-cover block scale-100 group-hover:scale-106 transition-transform duration-[1.5s] ease-out"
-                        />
-
-
-
-                      </div>
-
-                      {/* Details Area */}
-                      <div className="p-3.5 sm:p-6 flex flex-col justify-between flex-1 relative bg-white">
-                        <div>
-
-
-                          {/* Product Title */}
-                          <h3 className="font-serif text-xs sm:text-base font-bold text-charcoal-950 group-hover:text-rose-500 transition-colors line-clamp-1 mb-1.5">
-                            {product.name}
-                          </h3>
-
-                          {/* Specs */}
-                          <div className="flex items-center gap-3 text-[9px] sm:text-[10px] text-charcoal-400 font-sans font-light">
-                            <span>Fabric: <strong className="font-semibold text-charcoal-600">{product.fabric}</strong></span>
-                          </div>
-                        </div>
-
-                        {/* Details footer */}
-                        <div className="flex justify-end items-center mt-3.5 pt-3 sm:mt-5 sm:pt-4 border-t border-cream-100">
-                          <button
+                      return (
+                        <motion.div
+                          key={product.id}
+                          variants={cardVariants}
+                          layout
+                          whileHover={{
+                            y: -10,
+                            transition: { type: 'spring', stiffness: 260, damping: 20 }
+                          }}
+                          onMouseEnter={() => setHoveredCardId(product.id)}
+                          onMouseLeave={() => setHoveredCardId(null)}
+                          className="w-full group flex flex-col bg-white rounded-3xl overflow-hidden shadow-sm border border-cream-200/80 hover:shadow-2xl hover:border-rose-200/90 transition-shadow transition-colors duration-300 relative"
+                        >
+                          {/* Product Visual Area */}
+                          <div
                             onClick={() => setQuickViewProduct(product)}
-                            className="font-sans text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-[#AB6970] hover:text-rose-500 border-b border-[#AB6970] hover:border-rose-500 pb-0.5 transition-colors cursor-pointer"
+                            className="relative aspect-square w-full overflow-hidden bg-[#FAF8F5] cursor-pointer"
                           >
-                            View Details
-                          </button>
-                        </div>
-                      </div>
-                    </motion.div>
-                  );
-                })}
-              </motion.div>
-            ) : (
-              <motion.div 
-                initial={{ opacity: 0, scale: 0.95 }}
-                animate={{ opacity: 1, scale: 1 }}
-                className="text-center py-24 bg-white border border-cream-200 rounded-[32px] shadow-sm max-w-lg mx-auto"
-              >
-                <div className="w-16 h-16 bg-cream-50 rounded-full flex items-center justify-center mx-auto mb-6 border border-cream-100">
-                  <FiFilter className="w-6 h-6 text-charcoal-400 animate-pulse" />
-                </div>
-                <h3 className="text-xl font-bold font-serif text-charcoal-900 mb-2">No Matches Found</h3>
-                <p className="text-xs text-charcoal-500 max-w-sm mx-auto leading-relaxed mb-8">
-                  We couldn't find any premium designs matching your selected combination of sizes or fabrics in this category.
-                </p>
-                <motion.button 
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  onClick={() => {
-                    setSelectedFabric('all');
-                    setSelectedSize('all');
-                  }}
-                  className="bg-charcoal-950 hover:bg-rose-500 text-white font-bold uppercase tracking-widest text-xxs py-3 px-8 rounded-full shadow-md transition-colors"
-                >
-                  Reset Filtering
-                </motion.button>
-              </motion.div>
-            )}
-          </AnimatePresence>
-        </div>
-      </motion.div>
-    </AnimatePresence>
-  </div>
-</div>
+                            {/* Elegant overlay shadow on hover */}
+                            <div className="absolute inset-0 bg-gradient-to-t from-charcoal-950/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10" />
+
+                            {/* Image Switcher on Hover */}
+                            <img
+                              src={hoveredCardId === product.id && product.hoverImage ? product.hoverImage : product.image}
+                              alt={product.name}
+                              className="w-full h-full object-cover block scale-100 group-hover:scale-106 transition-transform duration-[1.5s] ease-out"
+                            />
+
+
+
+                          </div>
+
+                          {/* Details Area */}
+                          <div className="p-3.5 sm:p-6 flex flex-col justify-between flex-1 relative bg-white">
+                            <div>
+
+
+                              {/* Product Title */}
+                              <h3 className="font-serif text-xs sm:text-base font-bold text-charcoal-950 group-hover:text-rose-500 transition-colors line-clamp-1 mb-1.5">
+                                {product.name}
+                              </h3>
+
+                              {/* Specs */}
+                              <div className="flex items-center gap-3 text-[9px] sm:text-[10px] text-charcoal-400 font-sans font-light">
+                                <span>Fabric: <strong className="font-semibold text-charcoal-600">{product.fabric}</strong></span>
+                              </div>
+                            </div>
+
+                            {/* Details footer */}
+                            <div className="flex justify-end items-center mt-3.5 pt-3 sm:mt-5 sm:pt-4 border-t border-cream-100">
+                              <button
+                                onClick={() => setQuickViewProduct(product)}
+                                className="font-sans text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-[#AB6970] hover:text-rose-500 border-b border-[#AB6970] hover:border-rose-500 pb-0.5 transition-colors cursor-pointer"
+                              >
+                                View Details
+                              </button>
+                            </div>
+                          </div>
+                        </motion.div>
+                      );
+                    })}
+                  </motion.div>
+                ) : (
+                  <motion.div
+                    initial={{ opacity: 0, scale: 0.95 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    className="text-center py-24 bg-white border border-cream-200 rounded-[32px] shadow-sm max-w-lg mx-auto"
+                  >
+                    <div className="w-16 h-16 bg-cream-50 rounded-full flex items-center justify-center mx-auto mb-6 border border-cream-100">
+                      <FiFilter className="w-6 h-6 text-charcoal-400 animate-pulse" />
+                    </div>
+                    <h3 className="text-xl font-bold font-serif text-charcoal-900 mb-2">No Matches Found</h3>
+                    <p className="text-xs text-charcoal-500 max-w-sm mx-auto leading-relaxed mb-8">
+                      We couldn't find any premium designs matching your selected combination of sizes or fabrics in this category.
+                    </p>
+                    <motion.button
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                      onClick={() => {
+                        setSelectedFabric('all');
+                        setSelectedSize('all');
+                      }}
+                      className="bg-charcoal-950 hover:bg-rose-500 text-white font-bold uppercase tracking-widest text-xxs py-3 px-8 rounded-full shadow-md transition-colors"
+                    >
+                      Reset Filtering
+                    </motion.button>
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+          </motion.div>
+        </AnimatePresence>
+      </div>
+    </div>
   );
 }
