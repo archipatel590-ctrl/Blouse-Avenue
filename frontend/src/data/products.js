@@ -7,8 +7,8 @@ export const heroSlides = [
     title: 'THE SILK SYMPHONY',
     subtitle: 'Classic Banarasi brocade and pure raw silk blouses that harmonize with every elegant drape.',
     badge: 'NEW ♦ CLASSIC ♦ HERITAGE',
-    imageLeft: '/src/assets/zuri_saree_left.png',
-    imageRight: '/src/assets/zuri_saree_right.png',
+    imageLeft: 'https://cdn.jumpshare.com/preview/uH4lLMMc0r42YuL5OUkb8WNam1xiUfJ6Euw9QEIj2whbKyqTUTgfQk5x56hPadEMCg50fK94jsjSSjayr4CkeaTkP47lCqHj_oiBaeLXr_yDeASiWMaHGlkxfqBs6clF',
+    imageRight: 'https://cdn.jumpshare.com/preview/3kV8rALwaw4GVPDFpRlp0BbcJzmHd3Yben8nkC4Re8brCd6E9kE39ChLkqVUc1g_gzdvLGKRnTarncWfe-yADKLqcI92ZVLWk44gLbFADmKDeASiWMaHGlkxfqBs6clF',
     tagline: 'Elevating Everyday Regal Grace'
   },
   {
@@ -17,8 +17,8 @@ export const heroSlides = [
     title: 'FESTIVE DANCE OF COLORS',
     subtitle: 'Vibrant Kutchi mirror-work and handloom cotton blouses celebrating cultural richness.',
     badge: 'NEW ♦ FESTIVE ♦ SPECIAL',
-    imageLeft: '/src/assets/zuri_navratri_left.png',
-    imageRight: '/src/assets/zuri_navratri_right.png',
+    imageLeft: 'https://cdn.jumpshare.com/preview/Vc7tZWlbbBmzRjIi7Y68LtqJIRigFoHBDLdwifZINuZ-9DdqNkHIgeV_IipSKI33Cg50fK94jsjSSjayr4CkeR9EZvPbvIIYDRRsM6IrXsaDeASiWMaHGlkxfqBs6clF',
+    imageRight: 'https://cdn.jumpshare.com/preview/WecSbt3Q2bBEihllbPjcHKdhBKichDUrnl0beT-OQiUHASCFXdHTFHyIWusXa3waCg50fK94jsjSSjayr4CkeVe9BV88DtEXQ-ccbGsVdvWDeASiWMaHGlkxfqBs6clF',
     tagline: 'Vibrant Mirror-work & Handloom Marvels'
   },
   {
@@ -27,8 +27,8 @@ export const heroSlides = [
     title: 'THE MODERN SHIMMER',
     subtitle: 'Contemporary silhouettes with sequins, cut-out backs, and metallic accents for festive evenings.',
     badge: 'NEW ♦ COUTURE ♦ COLLECTION',
-    imageLeft: '/src/assets/zuri_party_left.png',
-    imageRight: '/src/assets/zuri_party_right.png',
+    imageLeft: 'https://cdn.jumpshare.com/preview/BYxYsRCtRCVbLsJHxvMuF-Z5h4_28m15_wFFRURqlqlXjFgqqosyHDLhW5rI-zJZgzdvLGKRnTarncWfe-yADNapuzTBk-9xhCzuV0ipywWDeASiWMaHGlkxfqBs6clF',
+    imageRight: 'https://cdn.jumpshare.com/preview/oVps4ZRmPVQIu1P1KZf1Vuy9yZPwZXk7cgxABDBWr3GxN5mifzf5YHxaNaWl4tE1Cg50fK94jsjSSjayr4CkeRtjLTD1cIBByb04e4T3NOWDeASiWMaHGlkxfqBs6clF',
     tagline: 'Stellar Silhouettes for Late-Night Soirees'
   }
 ];
@@ -37,28 +37,28 @@ export const categories = [
   {
     id: 'cat-1',
     name: 'Saree Wear Blouses',
-    image: '/src/assets/zuri_saree_left.png',
+    image: 'https://cdn.jumpshare.com/preview/uH4lLMMc0r42YuL5OUkb8WNam1xiUfJ6Euw9QEIj2whbKyqTUTgfQk5x56hPadEMCg50fK94jsjSSjayr4CkeaTkP47lCqHj_oiBaeLXr_yDeASiWMaHGlkxfqBs6clF',
     count: 32,
     path: '/category/saree-wear'
   },
   {
     id: 'cat-2',
     name: 'Navratri Special',
-    image: '/src/assets/zuri_navratri_left.png',
+    image: 'https://cdn.jumpshare.com/preview/Vc7tZWlbbBmzRjIi7Y68LtqJIRigFoHBDLdwifZINuZ-9DdqNkHIgeV_IipSKI33Cg50fK94jsjSSjayr4CkeR9EZvPbvIIYDRRsM6IrXsaDeASiWMaHGlkxfqBs6clF',
     count: 15,
     path: '/category/navratri'
   },
   {
     id: 'cat-3',
     name: 'Party Wear Blouses',
-    image: '/src/assets/zuri_party_right.png',
+    image: 'https://cdn.jumpshare.com/preview/oVps4ZRmPVQIu1P1KZf1Vuy9yZPwZXk7cgxABDBWr3GxN5mifzf5YHxaNaWl4tE1Cg50fK94jsjSSjayr4CkeRtjLTD1cIBByb04e4T3NOWDeASiWMaHGlkxfqBs6clF',
     count: 18,
     path: '/category/party-wear'
   },
   {
     id: 'cat-4',
     name: 'Best Sellers',
-    image: '/src/assets/zuri_model_magenta.png',
+    image: 'https://cdn.jumpshare.com/preview/i798cbLnKphNF2J6IkXvLY_CdynztU2hwCynjYXNSHvmiAJFoLjxAPGKdx5HE0uzCg50fK94jsjSSjayr4CkeT5EJjArL4tau69Sc7pfYy6DeASiWMaHGlkxfqBs6clF',
     count: 20,
     path: '/category/best-sellers'
   }
