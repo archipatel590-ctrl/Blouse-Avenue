@@ -32,7 +32,7 @@ export default function QuickViewModal() {
     setQuickViewProduct(null);
   };
 
-  const whatsappNumber = '919558821758';
+  const whatsappNumber = '14692364976'; // +1(469)236-4976
   const skuNumber = (quickViewProduct.sku || '001').match(/\d+/)?.[0] || '001';
   const imageUrl = quickViewProduct.image.startsWith('data:')
     ? ''
