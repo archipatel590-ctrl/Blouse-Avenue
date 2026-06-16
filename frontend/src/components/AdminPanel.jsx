@@ -42,7 +42,7 @@ export default function AdminPanel() {
   const [formColor, setFormColor] = useState('');
   const [formTag, setFormTag] = useState('New'); // Default tag
   const [formDesc, setFormDesc] = useState('');
-  const [formImage, setFormImage] = useState('/src/assets/products/prod_pearl_ivory.png');
+  const [formImage, setFormImage] = useState('/assets/products/prod_pearl_ivory.png');
   const [formHoverImage, setFormHoverImage] = useState('');
   const [hoverImageInputMode, setHoverImageInputMode] = useState('url'); // 'url' or 'file'
   const [formCategories, setFormCategories] = useState([]);
@@ -56,7 +56,7 @@ export default function AdminPanel() {
     setFormColor('');
     setFormTag('New');
     setFormDesc('');
-    setFormImage('/src/assets/products/prod_pearl_ivory.png');
+    setFormImage('/assets/products/prod_pearl_ivory.png');
     setFormHoverImage('');
     setFormCategories([]);
     setFormShowInWatchShop(false);
@@ -80,7 +80,7 @@ export default function AdminPanel() {
     setFormColor(product.color || '');
     setFormTag(product.tag || 'New');
     setFormDesc(product.description || '');
-    setFormImage(product.image || '/src/assets/products/prod_pearl_ivory.png');
+    setFormImage(product.image || '/assets/products/prod_pearl_ivory.png');
     setFormHoverImage(product.hoverImage || '');
     setFormCategories(product.categories || (product.category ? [product.category] : []));
     setFormShowInWatchShop(product.showInWatchShop || false);
