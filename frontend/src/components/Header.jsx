@@ -86,9 +86,9 @@ export default function Header() {
             <span className="font-medium">+1(469) 236-4976</span>
           </a>
           <span className="hidden sm:inline text-cream-400">|</span>
-          <a href="mailto:ketalzuri@hotmail.com" className="flex items-center gap-1.5 hover:text-rose-500 transition-colors">
+          <a href="mailto:blouseavenue@yahoo.com" className="flex items-center gap-1.5 hover:text-rose-500 transition-colors">
             <FiMail className="w-3.5 h-3.5 text-rose-400" />
-            <span className="font-medium">ketalzuri@hotmail.com</span>
+            <span className="font-medium">blouseavenue@yahoo.com</span>
           </a>
         </div>
       </div>
@@ -131,9 +131,8 @@ export default function Header() {
                 <button
                   key={index}
                   onClick={() => handleMenuClick(item)}
-                  className={`font-medium text-xs xl:text-sm tracking-widest uppercase hover:text-rose-400 transition-colors py-1 link-underline font-sans ${
-                    isSelected ? 'text-rose-500 font-bold border-b border-rose-500' : 'text-charcoal-900'
-                  }`}
+                  className={`font-medium text-xs xl:text-sm tracking-widest uppercase hover:text-rose-400 transition-colors py-1 link-underline font-sans ${isSelected ? 'text-rose-500 font-bold border-b border-rose-500' : 'text-charcoal-900'
+                    }`}
                 >
                   {item.label}
                 </button>
@@ -233,9 +232,8 @@ export default function Header() {
                     <button
                       key={index}
                       onClick={() => handleMenuClick(item)}
-                      className={`text-left font-sans font-medium text-sm tracking-widest uppercase py-2 border-b border-cream-100 hover:text-rose-500 hover:pl-2 transition-all duration-300 ${
-                        isSelected ? 'text-rose-500 font-semibold pl-2 font-bold' : 'text-charcoal-900'
-                      }`}
+                      className={`text-left font-sans font-medium text-sm tracking-widest uppercase py-2 border-b border-cream-100 hover:text-rose-500 hover:pl-2 transition-all duration-300 ${isSelected ? 'text-rose-500 font-semibold pl-2 font-bold' : 'text-charcoal-900'
+                        }`}
                     >
                       {item.label}
                     </button>
@@ -292,7 +290,7 @@ export default function Header() {
                 </div>
                 <div className="flex items-center gap-2">
                   <FiMail className="w-4 h-4 text-rose-300" />
-                  <span>ketalzuri@hotmail.com</span>
+                  <span>blouseavenue@yahoo.com</span>
                 </div>
 
               </div>
